@@ -1,0 +1,14 @@
+
+#para1{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    position: relative;
+
+}
