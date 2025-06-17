@@ -5,7 +5,13 @@
     font-size: 2rem;
     font-weight: 700;
 }
+.container{
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center; 
+}
 #box1{
+      
     height: 300px;
     width: 300px;
     background-color: blueviolet;

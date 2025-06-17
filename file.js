@@ -26,9 +26,9 @@
         move();
 
         document.getElementById("box1").onclick = function(){
-            document.getElementById("box1").style.display = "none";
+           // document.getElementById("box1").style.display = "center";
             var end = new Date().getTime();
-            var takenTime = (end-start)/1000;
+            var takenTime = ((end-start)/1000).toFixed(2);
             alert(takenTime);
             move();
 }
